@@ -1,0 +1,681 @@
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           g0004
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+ In auto-tuning mode......
+ p_row x p_col           0           0
+ In auto-tuning mode......
+ factors:            1           2           4
+ p_row x p_col           2           2
+ This executable of CaNS was built with compiler: GCC version 9.4.0
+ Using the options: -cpp -I ./dependencies/2decomp-fft/mod -I /home/bingxing2/apps/openmpi/4.1.2/include -I /home/bingxing2/apps/openmpi/4.1.2/lib -D_REENTRANT -D _DEBUG -D _TIMING -D _DECOMP_X -mtune=generic -march=x86-64 -auxbase-strip build/main.f90.o -g -O0 -Wall -Wextra -Wpedantic -std=f2018 -fbacktrace -fcheck=all -finit-real=snan -ffpe-trap=invalid -J ./build
+ MPI Version: Open MPI v4.1.2, package: Open MPI gpuuser001@bingxing-slurm-cli Distribution, ident: 4.1.2, repo rev: v4.1.2, Nov 24, 2021
+ 
+ *******************************
+ *** Beginning of simulation ***
+ *******************************
+ 
+ *** Checkpoint loaded at time =    0.0000000000000000      time step =            0 . ***
+ dtmax =    2.3129191541261765E-002 dt =    3.3100000000000000E-003
+ *** Calculation loop starts now ***
+ Time step #           1 Time =    3.3100000000000000E-003
+ Avrg, min & max elapsed time: 
+   6.1838233000000048E-002   6.1459290000000055E-002   6.2838646000000109E-002
+ Time step #           2 Time =    6.6200000000000000E-003
+ Avrg, min & max elapsed time: 
+   6.6196336499999897E-002   6.6148882999999881E-002   6.6212795999999852E-002
+ Time step #           3 Time =    9.9299999999999996E-003
+ Avrg, min & max elapsed time: 
+   3.0716194750000037E-002   3.0691530999999994E-002   3.0726808000000050E-002
+ Time step #           4 Time =    1.3240000000000000E-002
+ Avrg, min & max elapsed time: 
+   2.7147685249999998E-002   2.7123381000000002E-002   2.7156371000000012E-002
+ Time step #           5 Time =    1.6549999999999999E-002
+ Avrg, min & max elapsed time: 
+   2.4677242499999974E-002   2.4658201000000046E-002   2.4684763999999859E-002
+ Time step #           6 Time =    1.9859999999999999E-002
+ Avrg, min & max elapsed time: 
+   2.2920967750000021E-002   2.2893580000000080E-002   2.2931508999999961E-002
+ Time step #           7 Time =    2.3170000000000000E-002
+ Avrg, min & max elapsed time: 
+   2.2030092499999931E-002   2.2010222000000024E-002   2.2038049999999920E-002
+ Time step #           8 Time =    2.6480000000000000E-002
+ Avrg, min & max elapsed time: 
+   2.1981065500000008E-002   2.1957135000000072E-002   2.1989864000000026E-002
+ Time step #           9 Time =    2.9790000000000001E-002
+ Avrg, min & max elapsed time: 
+   2.2632874250000046E-002   2.2611033000000003E-002   2.2644157000000220E-002
+ Time step #          10 Time =    3.3099999999999997E-002
+ Checking stability and divergence...
+ dtmax =    2.4706267416900244E-002 dt =    3.3100000000000000E-003
+ Total divergence =    7.3037713030355000E-014 | Maximum divergence =    1.0658141036401503E-014
+ Avrg, min & max elapsed time: 
+   2.4199506000000037E-002   2.3641047999999998E-002   2.5867629000000170E-002
+ Time step #          11 Time =    3.6409999999999998E-002
+ Avrg, min & max elapsed time: 
+   3.5031731999999982E-002   3.5018234000000037E-002   3.5037632999999957E-002
+ Time step #          12 Time =    3.9719999999999998E-002
+ Avrg, min & max elapsed time: 
+   4.4784790500000116E-002   3.5367901000000090E-002   4.7926297000000062E-002
+ Time step #          13 Time =    4.3029999999999999E-002
+ Avrg, min & max elapsed time: 
+   2.2092269499999873E-002   2.2008753999999797E-002   2.2120305999999701E-002
+ Time step #          14 Time =    4.6339999999999999E-002
+ Avrg, min & max elapsed time: 
+   2.2017765750000029E-002   2.2000595000000178E-002   2.2023561000000136E-002
+ Time step #          15 Time =    4.9650000000000000E-002
+ Avrg, min & max elapsed time: 
+   2.2004730249999993E-002   2.1985984999999930E-002   2.2011192999999984E-002
+ Time step #          16 Time =    5.2960000000000000E-002
+ Avrg, min & max elapsed time: 
+   2.2668342499999994E-002   2.2655257999999900E-002   2.2672994000000113E-002
+ Time step #          17 Time =    5.6270000000000001E-002
+ Avrg, min & max elapsed time: 
+   2.1991447749999948E-002   2.1971416999999827E-002   2.1998378000000152E-002
+ Time step #          18 Time =    5.9580000000000001E-002
+ Avrg, min & max elapsed time: 
+   2.1999131999999921E-002   2.1981303000000008E-002   2.2005121999999933E-002
+ Time step #          19 Time =    6.2890000000000001E-002
+ Avrg, min & max elapsed time: 
+   2.1995031750000005E-002   2.1974657000000120E-002   2.2001978000000033E-002
+ Time step #          20 Time =    6.6199999999999995E-002
+ Checking stability and divergence...
+ dtmax =    2.6811649849098198E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -5.0773512998147918E-014 | Maximum divergence =    1.0658141036401503E-014
+ Avrg, min & max elapsed time: 
+   2.6608574000000107E-002   2.3585227999999958E-002   3.5678403000000136E-002
+ Time step #          21 Time =    6.9509999999999988E-002
+ Avrg, min & max elapsed time: 
+   3.4990221000000044E-002   3.4976070000000137E-002   3.4995116000000159E-002
+ Time step #          22 Time =    7.2819999999999982E-002
+ Avrg, min & max elapsed time: 
+   3.4982414499999948E-002   3.4956378999999815E-002   3.4991251000000112E-002
+ Time step #          23 Time =    7.6129999999999975E-002
+ Avrg, min & max elapsed time: 
+   3.9839216500000052E-002   3.0093572999999818E-002   4.3088433000000093E-002
+ Time step #          24 Time =    7.9439999999999969E-002
+ Avrg, min & max elapsed time: 
+   3.9704669249999991E-002   3.9592054000000099E-002   3.9744843999999890E-002
+ Time step #          25 Time =    8.2749999999999962E-002
+ Avrg, min & max elapsed time: 
+   2.1973759250000002E-002   2.1947573000000054E-002   2.1984129999999880E-002
+ Time step #          26 Time =    8.6059999999999956E-002
+ Avrg, min & max elapsed time: 
+   2.2016530249999999E-002   2.1989347000000103E-002   2.2028074000000064E-002
+ Time step #          27 Time =    8.9369999999999949E-002
+ Avrg, min & max elapsed time: 
+   2.2096565500000109E-002   2.2082588000000181E-002   2.2103187000000135E-002
+ Time step #          28 Time =    9.2679999999999943E-002
+ Avrg, min & max elapsed time: 
+   5.3384255999999908E-002   5.3354253999999823E-002   5.3394458999999950E-002
+ Time step #          29 Time =    9.5989999999999936E-002
+ Avrg, min & max elapsed time: 
+   4.9935854000000002E-002   4.9911859000000058E-002   4.9943950999999931E-002
+ Time step #          30 Time =    9.9299999999999930E-002
+ Checking stability and divergence...
+ dtmax =    2.7209759779340335E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -8.5044303413731037E-014 | Maximum divergence =    8.8817841970012523E-015
+ Avrg, min & max elapsed time: 
+   8.0357266750000045E-002   7.7272062000000030E-002   8.9612164000000050E-002
+ Time step #          31 Time =   0.10260999999999992     
+ Avrg, min & max elapsed time: 
+  0.11034745574999993       0.10470084100000010       0.11600342099999983     
+ Time step #          32 Time =   0.10591999999999992     
+ Avrg, min & max elapsed time: 
+  0.12999103425000003       0.12997019900000018       0.12999803099999996     
+ Time step #          33 Time =   0.10922999999999991     
+ Avrg, min & max elapsed time: 
+  0.23654860600000005       0.23510048200000000       0.23798316900000005     
+ Time step #          34 Time =   0.11253999999999990     
+ Avrg, min & max elapsed time: 
+  0.78201392025000016       0.78199068300000008       0.78202644800000032     
+ Time step #          35 Time =   0.11584999999999990     
+ Avrg, min & max elapsed time: 
+   3.1663968750000215E-002   3.1633367000000412E-002   3.1676283000000360E-002
+ Time step #          36 Time =   0.11915999999999989     
+ Avrg, min & max elapsed time: 
+   3.1444931999999981E-002   3.1423328000000250E-002   3.1453110999999812E-002
+ Time step #          37 Time =   0.12246999999999988     
+ Avrg, min & max elapsed time: 
+   4.4401616499999963E-002   4.4380199999999981E-002   4.4408911999999745E-002
+ Time step #          38 Time =   0.12577999999999989     
+ Avrg, min & max elapsed time: 
+   3.1378812749999985E-002   3.1359241000000093E-002   3.1386112999999938E-002
+ Time step #          39 Time =   0.12908999999999990     
+ Avrg, min & max elapsed time: 
+   4.4384346250000206E-002   4.4361460000000186E-002   4.4392369000000098E-002
+ Time step #          40 Time =   0.13239999999999991     
+ Checking stability and divergence...
+ dtmax =    2.8633504078465030E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -3.8886428799234096E-014 | Maximum divergence =    8.8817841970012523E-015
+ Avrg, min & max elapsed time: 
+   3.5937833500000016E-002   3.2712587999999876E-002   4.5612341000000001E-002
+ Time step #          41 Time =   0.13570999999999991     
+ Avrg, min & max elapsed time: 
+   3.1336105500000100E-002   3.1323278000000343E-002   3.1341435999999945E-002
+ Time step #          42 Time =   0.13901999999999992     
+ Avrg, min & max elapsed time: 
+   3.1341745500000018E-002   3.1323195999999776E-002   3.1348143000000217E-002
+ Time step #          43 Time =   0.14232999999999993     
+ Avrg, min & max elapsed time: 
+   3.1376874749999950E-002   3.1356477000000105E-002   3.1383817000000036E-002
+ Time step #          44 Time =   0.14563999999999994     
+ Avrg, min & max elapsed time: 
+   4.1033711999999944E-002   3.1362284999999712E-002   4.4257645000000068E-002
+ Time step #          45 Time =   0.14894999999999994     
+ Avrg, min & max elapsed time: 
+   3.1361084999999900E-002   3.1341992999999846E-002   3.1367715000000018E-002
+ Time step #          46 Time =   0.15225999999999995     
+ Avrg, min & max elapsed time: 
+   4.0542828249999996E-002   3.1344198999999850E-002   4.3609191999999908E-002
+ Time step #          47 Time =   0.15556999999999996     
+ Avrg, min & max elapsed time: 
+   3.1364929999999958E-002   3.1347541000000145E-002   3.1370753999999668E-002
+ Time step #          48 Time =   0.15887999999999997     
+ Avrg, min & max elapsed time: 
+   3.1357035500000019E-002   3.1338653000000161E-002   3.1363294000000153E-002
+ Time step #          49 Time =   0.16218999999999997     
+ Avrg, min & max elapsed time: 
+   4.1006784249999928E-002   3.1340549000000273E-002   4.4229097999999745E-002
+ Time step #          50 Time =   0.16549999999999998     
+ Checking stability and divergence...
+ dtmax =    2.8336167806885460E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -4.9234088214753641E-014 | Maximum divergence =    8.8817841970012523E-015
+ Avrg, min & max elapsed time: 
+   4.6357310999999846E-002   4.5971618999999908E-002   4.7506923999999895E-002
+ Time step #          51 Time =   0.16880999999999999     
+ Avrg, min & max elapsed time: 
+   3.1379905250000117E-002   3.1364073000000214E-002   3.1386347000000203E-002
+ Time step #          52 Time =   0.17212000000000000     
+ Avrg, min & max elapsed time: 
+   3.1382328000000181E-002   3.1361211000000111E-002   3.1390578000000335E-002
+ Time step #          53 Time =   0.17543000000000000     
+ Avrg, min & max elapsed time: 
+   4.0697773499999923E-002   3.1451673999999930E-002   4.3779874000000163E-002
+ Time step #          54 Time =   0.17874000000000001     
+ Avrg, min & max elapsed time: 
+   3.1397620500000389E-002   3.1377877000000609E-002   3.1405777999999884E-002
+ Time step #          55 Time =   0.18205000000000002     
+ Avrg, min & max elapsed time: 
+   4.6612750500000022E-002   3.5987920000000173E-002   5.0154812999999798E-002
+ Time step #          56 Time =   0.18536000000000002     
+[g0004:32126] 3 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[g0004:32126] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+ Avrg, min & max elapsed time: 
+  0.14221878899999996       0.13962483799999958       0.14995925900000007     
+ Time step #          57 Time =   0.18867000000000003     
+ Avrg, min & max elapsed time: 
+  0.10198693475000020        8.9950349000000429E-002  0.10599929700000033     
+ Time step #          58 Time =   0.19198000000000004     
+ Avrg, min & max elapsed time: 
+  0.39241254025000005       0.38965575100000027       0.39997720199999964     
+ Time step #          59 Time =   0.19529000000000005     
+ Avrg, min & max elapsed time: 
+   8.0075117749999869E-002   7.9971278000000368E-002   8.0110096000000297E-002
+ Time step #          60 Time =   0.19860000000000005     
+ Checking stability and divergence...
+ dtmax =    3.1727509537784145E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -1.0429059959377041E-013 | Maximum divergence =    7.1054273576010019E-015
+ Avrg, min & max elapsed time: 
+   4.7843292749999877E-002   4.7622479000000162E-002   4.8503339999999895E-002
+ Time step #          61 Time =   0.20191000000000006     
+ Avrg, min & max elapsed time: 
+   3.1385005750000028E-002   3.1370281000000055E-002   3.1390492999999964E-002
+ Time step #          62 Time =   0.20522000000000007     
+ Avrg, min & max elapsed time: 
+   5.1605547499999904E-002   5.1590674999999919E-002   5.1610763999999421E-002
+ Time step #          63 Time =   0.20853000000000008     
+ Avrg, min & max elapsed time: 
+   5.1989671749999911E-002   5.1969344999999834E-002   5.1996603000000086E-002
+ Time step #          64 Time =   0.21184000000000008     
+ Avrg, min & max elapsed time: 
+   5.4985072000000024E-002   5.4962289999999747E-002   5.4993361999999379E-002
+ Time step #          65 Time =   0.21515000000000009     
+ Avrg, min & max elapsed time: 
+   4.1151367499999925E-002   3.1407226999999871E-002   4.4399567000000140E-002
+ Time step #          66 Time =   0.21846000000000010     
+ Avrg, min & max elapsed time: 
+   4.9134675499999947E-002   4.7714262999999590E-002   5.0569619000000010E-002
+ Time step #          67 Time =   0.22177000000000011     
+ Avrg, min & max elapsed time: 
+   5.4986316749999986E-002   5.4964649000000421E-002   5.4993919000000169E-002
+ Time step #          68 Time =   0.22508000000000011     
+ Avrg, min & max elapsed time: 
+  0.15098473950000013       0.14599668500000007       0.15598630900000021     
+ Time step #          69 Time =   0.22839000000000012     
+ Avrg, min & max elapsed time: 
+  0.32055778150000003       0.31161735999999962       0.33598196800000046     
+ Time step #          70 Time =   0.23170000000000013     
+ Checking stability and divergence...
+ dtmax =    3.5831390379885177E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -5.0090140368830305E-016 | Maximum divergence =    7.1054273576010019E-015
+ Avrg, min & max elapsed time: 
+  0.49835159550000019       0.48501082000000029       0.51238062700000064     
+ Time step #          71 Time =   0.23501000000000014     
+ Avrg, min & max elapsed time: 
+  0.10102938449999987        9.5041196999999578E-002  0.10703696199999957     
+ Time step #          72 Time =   0.23832000000000014     
+ Avrg, min & max elapsed time: 
+   3.2065233500000012E-002   3.2041706000000225E-002   3.2073340000000172E-002
+ Time step #          73 Time =   0.24163000000000015     
+ Avrg, min & max elapsed time: 
+   5.1281427000000157E-002   5.1263429000000471E-002   5.1289955999999748E-002
+ Time step #          74 Time =   0.24494000000000016     
+ Avrg, min & max elapsed time: 
+   4.4399305250000021E-002   4.4379758999999908E-002   4.4405945999999474E-002
+ Time step #          75 Time =   0.24825000000000016     
+ Avrg, min & max elapsed time: 
+   4.9222355499999981E-002   4.7258009000000101E-002   5.1169165000000127E-002
+ Time step #          76 Time =   0.25156000000000017     
+ Avrg, min & max elapsed time: 
+  0.29097893474999981       0.28799147999999963       0.29398228099999990     
+ Time step #          77 Time =   0.25487000000000015     
+ Avrg, min & max elapsed time: 
+  0.24976794899999955       0.24002669599999926       0.25302601499999966     
+ Time step #          78 Time =   0.25818000000000013     
+ Avrg, min & max elapsed time: 
+   3.1440048249999908E-002   3.1413640999999437E-002   3.1451278999999666E-002
+ Time step #          79 Time =   0.26149000000000011     
+ Avrg, min & max elapsed time: 
+   4.3837647749999986E-002   4.3816575000000135E-002   4.3845122999999653E-002
+ Time step #          80 Time =   0.26480000000000009     
+ Checking stability and divergence...
+ dtmax =    3.7057258320293794E-002 dt =    3.3100000000000000E-003
+ Total divergence =    1.6172545073966926E-013 | Maximum divergence =    8.8817841970012523E-015
+ Avrg, min & max elapsed time: 
+   4.5334035249999793E-002   4.4988684999999862E-002   4.6367542999999678E-002
+ Time step #          81 Time =   0.26811000000000007     
+ Avrg, min & max elapsed time: 
+   3.1363323500000151E-002   3.1350274000000233E-002   3.1368014999999971E-002
+ Time step #          82 Time =   0.27142000000000005     
+ Avrg, min & max elapsed time: 
+   3.1386309249999966E-002   3.1369975999999689E-002   3.1392009000000165E-002
+ Time step #          83 Time =   0.27473000000000003     
+ Avrg, min & max elapsed time: 
+   4.2391254500000475E-002   3.3019765000000589E-002   4.5515240000000290E-002
+ Time step #          84 Time =   0.27804000000000001     
+ Avrg, min & max elapsed time: 
+   3.4267193500000070E-002   3.4248788000000197E-002   3.4273452000000759E-002
+ Time step #          85 Time =   0.28134999999999999     
+ Avrg, min & max elapsed time: 
+   4.1256652750000233E-002   3.1733495000000111E-002   4.4431256000000197E-002
+ Time step #          86 Time =   0.28465999999999997     
+ Avrg, min & max elapsed time: 
+   5.1246015999999672E-002   5.1220062999999705E-002   5.1254718000000032E-002
+ Time step #          87 Time =   0.28796999999999995     
+ Avrg, min & max elapsed time: 
+   5.1985245750000075E-002   5.1962903999999810E-002   5.1992957999999589E-002
+ Time step #          88 Time =   0.29127999999999993     
+ Avrg, min & max elapsed time: 
+   5.1979722500000047E-002   5.1960161000000227E-002   5.1986321000000224E-002
+ Time step #          89 Time =   0.29458999999999991     
+ Avrg, min & max elapsed time: 
+   5.1985784250000000E-002   5.1963036000000073E-002   5.1994435000000117E-002
+ Time step #          90 Time =   0.29789999999999989     
+ Checking stability and divergence...
+ dtmax =    3.9085287208309637E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -1.1451885446878141E-016 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   5.6011341500000089E-002   5.3365184000000454E-002   6.3947713000000128E-002
+ Time step #          91 Time =   0.30120999999999987     
+ Avrg, min & max elapsed time: 
+   3.1390728999999729E-002   3.1374023999999778E-002   3.1396701999999443E-002
+ Time step #          92 Time =   0.30451999999999985     
+ Avrg, min & max elapsed time: 
+   6.5715465250000049E-002   5.6254833999999754E-002   6.8874003999999545E-002
+ Time step #          93 Time =   0.30782999999999983     
+ Avrg, min & max elapsed time: 
+   3.4850187749999595E-002   3.4826156999999469E-002   3.4860471999999199E-002
+ Time step #          94 Time =   0.31113999999999981     
+ Avrg, min & max elapsed time: 
+   4.3267266500000012E-002   3.2125842000000127E-002   4.6981106999999689E-002
+ Time step #          95 Time =   0.31444999999999979     
+ Avrg, min & max elapsed time: 
+   7.9873714000000318E-002   7.9855976000001050E-002   7.9879657999999409E-002
+ Time step #          96 Time =   0.31775999999999976     
+ Avrg, min & max elapsed time: 
+  0.13197561849999984       0.13195098699999974       0.13198635699999883     
+ Time step #          97 Time =   0.32106999999999974     
+ Avrg, min & max elapsed time: 
+   3.1389165250000239E-002   3.1367350000000016E-002   3.1398549000000386E-002
+ Time step #          98 Time =   0.32437999999999972     
+ Avrg, min & max elapsed time: 
+   3.1386341000000151E-002   3.1368008000001169E-002   3.1393142999998958E-002
+ Time step #          99 Time =   0.32768999999999970     
+ Avrg, min & max elapsed time: 
+   4.0470642999999473E-002   3.1344217999999202E-002   4.3513136999999702E-002
+ Time step #         100 Time =   0.33099999999999968     
+ Checking stability and divergence...
+ dtmax =    3.9631970108857550E-002 dt =    3.3100000000000000E-003
+ Total divergence =    7.1757710721782192E-014 | Maximum divergence =    7.1054273576010019E-015
+ Avrg, min & max elapsed time: 
+   9.0018784250000206E-002   8.8263634000000479E-002   9.5284079000000688E-002
+ Time step #         101 Time =   0.33430999999999966     
+ Avrg, min & max elapsed time: 
+   3.1452223750000119E-002   3.1431427999999428E-002   3.1459260000000100E-002
+ Time step #         102 Time =   0.33761999999999964     
+ Avrg, min & max elapsed time: 
+   3.1371228499999848E-002   3.1353203000000107E-002   3.1377379999998567E-002
+ Time step #         103 Time =   0.34092999999999962     
+ Avrg, min & max elapsed time: 
+   3.1387986249999944E-002   3.1370684000000537E-002   3.1394125999998579E-002
+ Time step #         104 Time =   0.34423999999999960     
+ Avrg, min & max elapsed time: 
+   4.0420434500000102E-002   3.1363748000000413E-002   4.3439743000000419E-002
+ Time step #         105 Time =   0.34754999999999958     
+ Avrg, min & max elapsed time: 
+   3.1410362499999955E-002   3.1393560999999792E-002   3.1416082999999873E-002
+ Time step #         106 Time =   0.35085999999999956     
+ Avrg, min & max elapsed time: 
+   4.0504933750000305E-002   3.1350077000000809E-002   4.3557379000001006E-002
+ Time step #         107 Time =   0.35416999999999954     
+ Avrg, min & max elapsed time: 
+   3.1533052499999492E-002   3.1516225999999037E-002   3.1542305000000326E-002
+ Time step #         108 Time =   0.35747999999999952     
+ Avrg, min & max elapsed time: 
+   4.0472975000000133E-002   3.1405827000000386E-002   4.3495441000001023E-002
+ Time step #         109 Time =   0.36078999999999950     
+ Avrg, min & max elapsed time: 
+   4.8642143249999936E-002   4.7715488999999778E-002   4.9579195999999826E-002
+ Time step #         110 Time =   0.36409999999999948     
+ Checking stability and divergence...
+ dtmax =    4.1026846229204252E-002 dt =    3.3100000000000000E-003
+ Total divergence =    1.1899322130935752E-013 | Maximum divergence =    6.2172489379008766E-015
+ Avrg, min & max elapsed time: 
+   5.6186026749999840E-002   5.3592877999999899E-002   6.3964141999999669E-002
+ Time step #         111 Time =   0.36740999999999946     
+ Avrg, min & max elapsed time: 
+   3.1402338249999939E-002   3.1384496999999456E-002   3.1409093000000610E-002
+ Time step #         112 Time =   0.37071999999999944     
+ Avrg, min & max elapsed time: 
+   6.5602432749999995E-002   5.6151670000000209E-002   6.8754471000000095E-002
+ Time step #         113 Time =   0.37402999999999942     
+ Avrg, min & max elapsed time: 
+   4.9889022249999471E-002   4.7963032000000183E-002   5.1826914999999474E-002
+ Time step #         114 Time =   0.37733999999999940     
+ Avrg, min & max elapsed time: 
+   3.1400462999999323E-002   3.1378147999999939E-002   3.1407907999998486E-002
+ Time step #         115 Time =   0.38064999999999938     
+ Avrg, min & max elapsed time: 
+   3.1398717999999715E-002   3.1380773000000417E-002   3.1405098000000464E-002
+ Time step #         116 Time =   0.38395999999999936     
+ Avrg, min & max elapsed time: 
+   4.4477040499999898E-002   3.5355426000000634E-002   4.7518115999999111E-002
+ Time step #         117 Time =   0.38726999999999934     
+ Avrg, min & max elapsed time: 
+   2.9448879750000323E-002   2.9432324000000065E-002   2.9454657000000495E-002
+ Time step #         118 Time =   0.39057999999999932     
+ Avrg, min & max elapsed time: 
+   4.0471737500000327E-002   3.1341324000001336E-002   4.3516830999999812E-002
+ Time step #         119 Time =   0.39388999999999930     
+ Avrg, min & max elapsed time: 
+   3.1387887249999746E-002   3.1370530000000230E-002   3.1394513000000401E-002
+ Time step #         120 Time =   0.39719999999999928     
+ Checking stability and divergence...
+ dtmax =    4.0634039013253326E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -8.6228211528503740E-014 | Maximum divergence =    5.4678483962788960E-015
+ Avrg, min & max elapsed time: 
+   4.5927416499999651E-002   4.5575041999999399E-002   4.6982290999999066E-002
+ Time step #         121 Time =   0.40050999999999926     
+ Avrg, min & max elapsed time: 
+   3.1374234999999917E-002   3.1362188000001012E-002   3.1379767999998975E-002
+ Time step #         122 Time =   0.40381999999999924     
+ Avrg, min & max elapsed time: 
+   3.1368161249999638E-002   3.1351273999998597E-002   3.1374114000000120E-002
+ Time step #         123 Time =   0.40712999999999921     
+ Avrg, min & max elapsed time: 
+   4.0713658249999618E-002   3.1363758999999547E-002   4.3830527999999092E-002
+ Time step #         124 Time =   0.41043999999999919     
+ Avrg, min & max elapsed time: 
+   3.1392316000000253E-002   3.1376150999999908E-002   3.1398304999999738E-002
+ Time step #         125 Time =   0.41374999999999917     
+ Avrg, min & max elapsed time: 
+   4.0522205249999832E-002   3.1356345000000729E-002   4.3578473000000173E-002
+ Time step #         126 Time =   0.41705999999999915     
+ Avrg, min & max elapsed time: 
+   3.1382786499999593E-002   3.1365244999999931E-002   3.1389237999999153E-002
+ Time step #         127 Time =   0.42036999999999913     
+ Avrg, min & max elapsed time: 
+   4.0544967750000271E-002   3.1364039000001398E-002   4.3605753999999664E-002
+ Time step #         128 Time =   0.42367999999999911     
+ Avrg, min & max elapsed time: 
+  0.25863395149999935       0.25861658499999862       0.25864403799999991     
+ Time step #         129 Time =   0.42698999999999909     
+ Avrg, min & max elapsed time: 
+   7.7968621749999745E-002   7.7942193000000159E-002   7.7978390000000175E-002
+ Time step #         130 Time =   0.43029999999999907     
+ Checking stability and divergence...
+ dtmax =    4.1253445928874567E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -7.9977582716217466E-014 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   7.9759511500000713E-002   7.9405406000001122E-002   8.0821437000000884E-002
+ Time step #         131 Time =   0.43360999999999905     
+ Avrg, min & max elapsed time: 
+  0.26444578850000022       0.25876092600000078       0.27012299499999948     
+ Time step #         132 Time =   0.43691999999999903     
+ Avrg, min & max elapsed time: 
+   6.3701409249999674E-002   5.3948978999999397E-002   6.6952359000000072E-002
+ Time step #         133 Time =   0.44022999999999901     
+ Avrg, min & max elapsed time: 
+  0.28451539675000070       0.27702588999999911       0.29198683000000081     
+ Time step #         134 Time =   0.44353999999999899     
+ Avrg, min & max elapsed time: 
+  0.44618104549999948       0.43970655699999917       0.45271011199999833     
+ Time step #         135 Time =   0.44684999999999897     
+ Avrg, min & max elapsed time: 
+   4.3533694999999817E-002   3.4298958000000823E-002   4.6612131999999917E-002
+ Time step #         136 Time =   0.45015999999999895     
+ Avrg, min & max elapsed time: 
+   3.0486285750000341E-002   3.0463638000000515E-002   3.0496793000001077E-002
+ Time step #         137 Time =   0.45346999999999893     
+ Avrg, min & max elapsed time: 
+   4.3589643999999872E-002   4.3568297000000200E-002   4.3601433999999273E-002
+ Time step #         138 Time =   0.45677999999999891     
+ Avrg, min & max elapsed time: 
+   3.1473133500000028E-002   3.1451297000000267E-002   3.1480872999999576E-002
+ Time step #         139 Time =   0.46008999999999889     
+ Avrg, min & max elapsed time: 
+   4.4400350500001018E-002   4.4379844000001611E-002   4.4407722000000760E-002
+ Time step #         140 Time =   0.46339999999999887     
+ Checking stability and divergence...
+ dtmax =    4.3811784054532558E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -2.9341411028269149E-014 | Maximum divergence =    8.8817841970012523E-015
+ Avrg, min & max elapsed time: 
+   4.5288221999999934E-002   4.4971435000000781E-002   4.6235336999998822E-002
+ Time step #         141 Time =   0.46670999999999885     
+ Avrg, min & max elapsed time: 
+  0.10339155700000013       0.10337906300000022       0.10339642000000104     
+ Time step #         142 Time =   0.47001999999999883     
+ Avrg, min & max elapsed time: 
+  0.23400363349999997       0.23398787100000007       0.23400924299999915     
+ Time step #         143 Time =   0.47332999999999881     
+ Avrg, min & max elapsed time: 
+  0.21962988399999972       0.21958821099999959       0.21964398799999962     
+ Time step #         144 Time =   0.47663999999999879     
+ Avrg, min & max elapsed time: 
+   3.1425379749999927E-002   3.1398213999999314E-002   3.1434727000000606E-002
+ Time step #         145 Time =   0.47994999999999877     
+ Avrg, min & max elapsed time: 
+   3.1386883500000184E-002   3.1363062000000497E-002   3.1397141999999434E-002
+ Time step #         146 Time =   0.48325999999999875     
+ Avrg, min & max elapsed time: 
+   4.4397344749999235E-002   4.4380754999998828E-002   4.4403164999998523E-002
+ Time step #         147 Time =   0.48656999999999873     
+ Avrg, min & max elapsed time: 
+   3.1358075500000027E-002   3.1337842000001004E-002   3.1365152000001117E-002
+ Time step #         148 Time =   0.48987999999999871     
+ Avrg, min & max elapsed time: 
+   4.4422423500000363E-002   4.4406866000000988E-002   4.4427930000001226E-002
+ Time step #         149 Time =   0.49318999999999868     
+ Avrg, min & max elapsed time: 
+   3.1360167749999945E-002   3.1345379999999423E-002   3.1366041000000067E-002
+ Time step #         150 Time =   0.49649999999999866     
+ Checking stability and divergence...
+ dtmax =    4.5250432484598396E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -5.3214811029933529E-015 | Maximum divergence =    7.1054273576010019E-015
+ Avrg, min & max elapsed time: 
+  0.13637015699999999       0.13320507999999975       0.14584432000000014     
+ Time step #         151 Time =   0.49980999999999864     
+ Avrg, min & max elapsed time: 
+   3.1468620249999635E-002   3.1448501999999934E-002   3.1475710999998796E-002
+ Time step #         152 Time =   0.50311999999999868     
+ Avrg, min & max elapsed time: 
+  0.11240269350000087       0.10299837500000031       0.11553754800000071     
+ Time step #         153 Time =   0.50642999999999871     
+ Avrg, min & max elapsed time: 
+  0.15597737949999990       0.15595079499999898       0.15598633799999995     
+ Time step #         154 Time =   0.50973999999999875     
+ Avrg, min & max elapsed time: 
+   5.4314552250000148E-002   5.4290400000001071E-002   5.4324336000000528E-002
+ Time step #         155 Time =   0.51304999999999878     
+ Avrg, min & max elapsed time: 
+   3.1483945999999818E-002   3.1462914999998759E-002   3.1491121000000177E-002
+ Time step #         156 Time =   0.51635999999999882     
+ Avrg, min & max elapsed time: 
+   7.7303482750000097E-002   7.7276463000000462E-002   7.7315891000001358E-002
+ Time step #         157 Time =   0.51966999999999886     
+ Avrg, min & max elapsed time: 
+   3.1469981749999931E-002   3.1443974000000097E-002   3.1480334000001164E-002
+ Time step #         158 Time =   0.52297999999999889     
+ Avrg, min & max elapsed time: 
+   7.4365978250000353E-002   7.4344752999998320E-002   7.4373119000000543E-002
+ Time step #         159 Time =   0.52628999999999893     
+ Avrg, min & max elapsed time: 
+   6.8706443249999971E-002   6.8683260000000246E-002   6.8714976999999067E-002
+ Time step #         160 Time =   0.52959999999999896     
+ Checking stability and divergence...
+ dtmax =    4.7425194579311908E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -3.5561234946329678E-014 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   4.9351167499999793E-002   4.8965829000000127E-002   5.0502035999999251E-002
+ Time step #         161 Time =   0.53290999999999900     
+ Avrg, min & max elapsed time: 
+  0.10569379925000000       0.10567513600000034       0.10570013600000117     
+ Time step #         162 Time =   0.53621999999999903     
+ Avrg, min & max elapsed time: 
+  0.17698219175000007       0.17695909900000117       0.17698994100000043     
+ Time step #         163 Time =   0.53952999999999907     
+ Avrg, min & max elapsed time: 
+  0.10600050624999957       0.10597564199999887       0.10600966600000028     
+ Time step #         164 Time =   0.54283999999999910     
+ Avrg, min & max elapsed time: 
+   8.7954165999999834E-002   8.7929146999998764E-002   8.7962823999999884E-002
+ Time step #         165 Time =   0.54614999999999914     
+ Avrg, min & max elapsed time: 
+  0.44298158199999982       0.43548250000000088       0.44548222399999915     
+ Time step #         166 Time =   0.54945999999999917     
+ Avrg, min & max elapsed time: 
+   7.0493599500000670E-002   7.0473207000000926E-002   7.0501264000000674E-002
+ Time step #         167 Time =   0.55276999999999921     
+ Avrg, min & max elapsed time: 
+   3.1396494500000038E-002   3.1375898000000291E-002   3.1403582999999458E-002
+ Time step #         168 Time =   0.55607999999999924     
+ Avrg, min & max elapsed time: 
+   5.4705117750000198E-002   5.4685765000000330E-002   5.4711925999999522E-002
+ Time step #         169 Time =   0.55938999999999928     
+ Avrg, min & max elapsed time: 
+   4.8973901000000097E-002   4.8954774000000256E-002   4.8981369999999913E-002
+ Time step #         170 Time =   0.56269999999999931     
+ Checking stability and divergence...
+ dtmax =    5.1062955852003267E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -5.1356407191130438E-014 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   5.6471258499999788E-002   5.3351117000000059E-002   6.5831364999999309E-002
+ Time step #         171 Time =   0.56600999999999935     
+ Avrg, min & max elapsed time: 
+   3.1424222750000119E-002   3.1405278999999453E-002   3.1431397000000416E-002
+ Time step #         172 Time =   0.56931999999999938     
+ Avrg, min & max elapsed time: 
+   9.0663054499999784E-002   8.1204182999998764E-002   9.3818092000001130E-002
+ Time step #         173 Time =   0.57262999999999942     
+ Avrg, min & max elapsed time: 
+   4.1168737999999649E-002   3.1582336999999683E-002   4.4364657999999224E-002
+ Time step #         174 Time =   0.57593999999999945     
+ Avrg, min & max elapsed time: 
+   3.4451815250000184E-002   3.4384852000000521E-002   3.4474692999999945E-002
+ Time step #         175 Time =   0.57924999999999949     
+ Avrg, min & max elapsed time: 
+   4.1132424499999765E-002   3.1439211000000356E-002   4.4365576999998879E-002
+ Time step #         176 Time =   0.58255999999999952     
+ Avrg, min & max elapsed time: 
+  0.49955898149999989       0.49014889200000056       0.50269611799999936     
+ Time step #         177 Time =   0.58586999999999956     
+ Avrg, min & max elapsed time: 
+   4.1212753749999997E-002   3.1600859000000980E-002   4.4416818000000191E-002
+ Time step #         178 Time =   0.58917999999999959     
+ Avrg, min & max elapsed time: 
+   3.0426042500000250E-002   3.0401460000000213E-002   3.0436290000000810E-002
+ Time step #         179 Time =   0.59248999999999963     
+ Avrg, min & max elapsed time: 
+   4.4388500000000608E-002   4.4370608000001255E-002   4.4395477000000128E-002
+ Time step #         180 Time =   0.59579999999999966     
+ Checking stability and divergence...
+ dtmax =    5.1755857870143765E-002 dt =    3.3100000000000000E-003
+ Total divergence =    3.7101920114749470E-014 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   3.5651914249999805E-002   3.2701574999999039E-002   4.4500528000000372E-002
+ Time step #         181 Time =   0.59910999999999970     
+ Avrg, min & max elapsed time: 
+   3.1398998999999428E-002   3.1383217999998436E-002   3.1405793000001125E-002
+ Time step #         182 Time =   0.60241999999999973     
+ Avrg, min & max elapsed time: 
+   4.9146730750000422E-002   4.7709463000000341E-002   5.0595871000000514E-002
+ Time step #         183 Time =   0.60572999999999977     
+ Avrg, min & max elapsed time: 
+   5.5979156999999446E-002   5.5951477999999000E-002   5.5988478999999813E-002
+ Time step #         184 Time =   0.60903999999999980     
+ Avrg, min & max elapsed time: 
+   4.1201624250000624E-002   3.1451199000001040E-002   4.4453026999999423E-002
+ Time step #         185 Time =   0.61234999999999984     
+ Avrg, min & max elapsed time: 
+   3.4248979499999610E-002   3.4226868999999382E-002   3.4256798999999560E-002
+ Time step #         186 Time =   0.61565999999999987     
+ Avrg, min & max elapsed time: 
+   4.0554927250000095E-002   3.1356267999999687E-002   4.3622065000000987E-002
+ Time step #         187 Time =   0.61896999999999991     
+ Avrg, min & max elapsed time: 
+   3.3723550249999956E-002   3.3706440999999643E-002   3.3729576999999011E-002
+ Time step #         188 Time =   0.62227999999999994     
+ Avrg, min & max elapsed time: 
+   4.1637405749999967E-002   3.1962619999999831E-002   4.4865664000001360E-002
+ Time step #         189 Time =   0.62558999999999998     
+ Avrg, min & max elapsed time: 
+   5.0065276749999832E-002   4.8132268999999894E-002   5.2007113000000160E-002
+ Time step #         190 Time =   0.62890000000000001     
+ Checking stability and divergence...
+ dtmax =    5.2824242556832976E-002 dt =    3.3100000000000000E-003
+ Total divergence =   -6.9346709364453973E-014 | Maximum divergence =    5.3290705182007514E-015
+ Avrg, min & max elapsed time: 
+   7.3310307000000297E-002   7.2983706000000481E-002   7.4289720999999531E-002
+ Time step #         191 Time =   0.63221000000000005     
+ Avrg, min & max elapsed time: 
+   3.1767673999999246E-002   3.1749765999999013E-002   3.1773793999999356E-002
+ Time step #         192 Time =   0.63552000000000008     
+ Avrg, min & max elapsed time: 
+   7.2325047749999705E-002   6.6792427999999404E-002   7.7872728999999197E-002
+ Time step #         193 Time =   0.63883000000000012     
+ Avrg, min & max elapsed time: 
+  0.31619719025000004       0.31617751199999944       0.31620799000000055     
+ Time step #         194 Time =   0.64214000000000016     
+ Avrg, min & max elapsed time: 
+   4.5702641750000161E-002   3.6085669000000209E-002   4.8908425999998784E-002
+ Time step #         195 Time =   0.64545000000000019     
+ Avrg, min & max elapsed time: 
+   7.1626604750000045E-002   6.1946628999999476E-002   7.4855182000000298E-002
+ Time step #         196 Time =   0.64876000000000023     
+ Avrg, min & max elapsed time: 
+  0.27842050699999987       0.26864626400000091       0.28167865799999880     
+ Time step #         197 Time =   0.65207000000000026     
+ Avrg, min & max elapsed time: 
+  0.12939963924999986       0.12014180899999971       0.13248562700000122     
+ Time step #         198 Time =   0.65538000000000030     
+ *** Checkpoint saved at time =   0.65538000000000030      time step =          198 . ***
+ Avrg, min & max elapsed time: 
+   1.1417710767499987        1.1387543099999995        1.1508023799999982     
+ *** Fim ***
