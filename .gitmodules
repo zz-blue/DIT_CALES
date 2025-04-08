@@ -1,0 +1,3 @@
+[submodule "TurboGenPY"]
+	path = TurboGenPY
+	url = git@github.com:saadgroup/TurboGenPY.git
